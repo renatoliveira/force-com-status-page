@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IncidentStatusUpdate__c</fullName>
+    <description>Select the new status for the related incident, if applicable. For example: if this update is about the resolution, then the incident&#39;s status could be &quot;monitoring&quot; or &quot;resolved&quot;.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the new status for the related incident, if applicable. For example: if this update is about the resolution, then the incident&#39;s status could be &quot;monitoring&quot; or &quot;resolved&quot;.</inlineHelpText>
+    <label>New incident status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>IncidentStatuses</valueSetName>
+    </valueSet>
+</CustomField>

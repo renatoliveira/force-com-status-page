@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Description__c</fullName>
+    <description>Description of what this update is about. If the update is to inform that the system has returned to normal, and the incident has been taken care of, then you can use the checkbox &quot;is resolution&quot; to close the issue.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Description of what this update is about. If the update is to inform that the system has returned to normal, and the incident has been taken care of, then you can use the checkbox &quot;is resolution&quot; to close the issue.</inlineHelpText>
+    <label>Description</label>
+    <length>40000</length>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incident__c</fullName>
+    <description>Parent incident which this update refers to.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Parent incident which this update refers to.</inlineHelpText>
+    <label>Incident</label>
+    <referenceTo>Incident__c</referenceTo>
+    <relationshipLabel>Incident updates</relationshipLabel>
+    <relationshipName>IncidentUpdates</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,7 @@
+<template>
+    <div class="slds-m-top_large slds-m-bottom_large">
+        <template for:each={systems} for:item="sys">
+            <c-system-status key={sys.Id} system={sys}></c-system-status>
+        </template>
+    </div>
+</template>

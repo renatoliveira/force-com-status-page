@@ -1,0 +1,14 @@
+{
+  "orgName": "Status Page",
+  "edition": "Enterprise",
+  "features": ["Communities", "Sites"],
+  "settings": {
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    },
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    }
+  },
+  "language": "en_US"
+}

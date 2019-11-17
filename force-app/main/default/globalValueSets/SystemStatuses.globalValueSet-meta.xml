@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>UNAVAILABLE</fullName>
+        <default>true</default>
+        <label>Unavailable</label>
+    </customValue>
+    <customValue>
+        <fullName>PERFORMANCE_DEGRADATION</fullName>
+        <default>false</default>
+        <label>Performance degradation</label>
+    </customValue>
+    <customValue>
+        <fullName>OPERATIONAL</fullName>
+        <default>false</default>
+        <label>Operational</label>
+    </customValue>
+    <description>Available statuses for the system.</description>
+    <masterLabel>System statuses</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

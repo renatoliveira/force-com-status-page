@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>INVESTIGATING</fullName>
+        <default>true</default>
+        <label>Investigating</label>
+    </customValue>
+    <customValue>
+        <fullName>IDENTIFIED</fullName>
+        <default>false</default>
+        <label>Identified</label>
+    </customValue>
+    <customValue>
+        <fullName>MONITORING</fullName>
+        <default>false</default>
+        <label>Monitoring</label>
+    </customValue>
+    <customValue>
+        <fullName>RESOLVED</fullName>
+        <default>false</default>
+        <label>Resolved</label>
+    </customValue>
+    <description>Available statuses for an incident.</description>
+    <masterLabel>Incident statuses</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,42 @@
+<apex:page
+    showHeader="false"
+    showQuickActionVfHeader="false"
+    sidebar="false"
+    lightningStylesheets="true"
+    title="Status">
+
+    <apex:includeLightning/>
+
+    <div class="slds-scope">
+        <div class="slds-grid">
+            <div class="slds-col slds-small-size_1-of-12 slds-medium-size_2-of-12 slds-large-size_3-of-12"></div>
+            <div class="slds-col slds-small-size_10-of-12 slds-medium-size_8-of-12 slds-large-size_6-of-12">
+                <div class="slds-text-heading_large slds-m-top_large">System status</div>
+            </div>
+            <div class="slds-col slds-small-size_1-of-12 slds-medium-size_2-of-12 slds-large-size_3-of-12"></div>
+        </div>
+
+        <div class="slds-grid">
+            <div class="slds-col slds-small-size_1-of-12 slds-medium-size_2-of-12 slds-large-size_3-of-12"></div>
+
+            <div class="slds-col slds-small-size_10-of-12 slds-medium-size_8-of-12 slds-large-size_6-of-12">
+                <div id="lightning"></div>
+            </div>
+
+            <div class="slds-col slds-small-size_1-of-12 slds-medium-size_2-of-12 slds-large-size_3-of-12"></div>
+        </div>
+
+        <div aria-label="footer" class="slds-text-color_weak">
+            <div class="slds-align_absolute-center">
+                <div>Powered by Force.com, hosted with ❤️ by {!$Organization.Name}</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $Lightning.use("c:statusPageApp", function() {
+            $Lightning.createComponent("c:statusComponent", {}, "lightning", function() {})
+        })
+    </script>
+
+</apex:page>

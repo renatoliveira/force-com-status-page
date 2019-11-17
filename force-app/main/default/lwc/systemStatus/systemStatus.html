@@ -1,0 +1,22 @@
+<template>
+    <div class="slds-box slds-theme_default slds-m-bottom_small">
+        <div class="slds-grid">
+            <div class="slds-col slds-size_2-of-3">
+                <div class="slds-text-title_caps">{system.Name}</div>
+                <div class={statusTextVariant}>{statusMessage}</div>
+            </div>
+            <div class="slds-col slds-size_1-of-3">
+                <div class="slds-float_right">
+                    <lightning-icon icon-name={statusIcon} alternative-text={statusMessage} variant={variant}></lightning-icon>
+                </div>
+            </div>
+        </div>
+        <template if:true={hasIncidents}>
+            <div aria-label="incidents">
+                <template for:each={system.Incidents__r} for:item="incident">
+                    <c-system-incident key={incident.Id} record-id={incident.Id}></c-system-incident>
+                </template>
+            </div>
+        </template>
+    </div>
+</template>
